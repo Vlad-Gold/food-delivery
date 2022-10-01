@@ -1,11 +1,29 @@
 body {
-  margin: 50px 0;
-  background-color: #70818f;;
+  margin: 0 auto;
+  box-sizing: border-box;
+  color: #2E1B0E;
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+  background-color: white;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 1332px;
+}
+
+a {
+  color: #2E1B0E;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #740909;
 }
 
 code {
